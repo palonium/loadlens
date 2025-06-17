@@ -1,0 +1,49 @@
+.side-panel{
+    border-right: 1px solid #6F679140;
+    position: sticky;
+    padding-right: 1px;
+    width: 303px;
+    height: 100%;
+    flex-shrink: 0;
+    overflow-y: auto;
+    &__nav{
+        margin: 0 70px 0 50px;
+        padding-top: 50px;
+
+        ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+        }
+    }
+
+    &__link{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        text-decoration: none;
+        color: #151515;
+        font-weight: 500;
+        font-size: 20px;
+    }
+}
+
+.layout-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .layout {
+    display: flex;
+    height: calc(100vh - 80px); // учитываем хедер
+    overflow: hidden;
+  }
+  
+  .layout__main {
+    flex-grow: 1;
+    overflow-y: auto;
+    height: 100%;
+  }

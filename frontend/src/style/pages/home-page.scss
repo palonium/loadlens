@@ -1,0 +1,72 @@
+.home-page {
+    &__list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  
+  .test-card {
+    background: #fff;
+    border: 1px solid #f0ebfa;
+    padding: 36px;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    &:hover {
+      box-shadow: 0 0 8px rgba(109, 102, 255, 0.15);
+    }
+  
+    &__title {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  
+    &__footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    &__status {
+        font-size: 20px;
+        font-weight: 500;
+    
+        &--завершено {
+          color: #5623B4;
+          font-weight: 700;
+        }
+    
+        &--в {
+          color: #111;
+        }
+    
+        &--просмотрено {
+          color: #151515B2
+        }
+      }
+  
+    &__delete {
+      background: none;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      color: #444;
+  
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+  
+
+  .test-card__button--start{
+    color: #5623B4;
+    background-color: #fff;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+  }

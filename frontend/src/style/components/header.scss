@@ -1,0 +1,62 @@
+.header{
+    max-width: 1712px;
+    margin: 0 auto;
+    border-bottom: 1px solid #6F679140;
+    height: 100px;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 104px 15px 50px;
+  }
+  
+  .header__logo-link {
+    flex-shrink: 0; // чтобы не сжимался
+    margin-right: 138px;
+    position: relative;
+  }
+
+  .header__logo-link::before{
+    content: '';
+    width: 1px;
+    background-color: #6F679140;
+    height: 102px;
+    top: -13px;
+    left: 252px;
+    position: absolute;
+
+  }
+  
+  .header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; // обязательно!
+  }
+
+  .header__logout{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .header__logout-img{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+  }
+  
+  .header__title{
+    margin-left: 40px;
+    font-size: 48px;
+    font-weight: 500;
+  }

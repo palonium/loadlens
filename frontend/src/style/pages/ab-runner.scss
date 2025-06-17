@@ -1,0 +1,46 @@
+.ab-runner__options {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .ab-runner__option {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.2s ease;
+    text-align: center;
+  
+    &--selected {
+      border: 2px solid #5623B4;
+      box-shadow: 0 0 0 3px #eae0ff;
+    }
+  }
+  
+  .ab-runner__image-wrap {
+    width: 360px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+  
+  .ab-runner__image {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  .ab-runner__label {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .ab-runner__footer {
+    display: flex;
+    justify-content: center;
+  }
+  

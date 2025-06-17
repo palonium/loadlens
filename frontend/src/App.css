@@ -1,0 +1,173 @@
+@import './style/components/header.scss';
+@import './style/components/side-panel.scss';
+@import './style/components/card.scss';
+@import './style/pages/choice-page.scss';
+@import './style/pages/home-page.scss';
+@import './style/pages/ab-results.scss';
+@import './style/pages/scenario-results.scss';
+@import './style/components/cleck-path-preview.scss';
+@import './style/pages/scenario-edit.scss';
+@import './style/components/image-uploader.scss';
+@import './style/components/task-modal.scss';
+@import './style/components/confirm-modal.scss';
+@import './style/pages/assign.scss';
+@import './style/pages/ab-editor.scss';
+@import './style/pages/ab-runner.scss';
+@import './style/pages/hotspot-runner.scss';
+@import './style/pages/auth-page.scss';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+    height: 100%;
+    overflow: hidden;
+}
+
+button{
+    font-family: "Raleway", sans-serif;
+    cursor: pointerw;
+}
+
+.page{
+    padding: 50px 40px;
+}
+
+.font-base{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.font-md{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.navlink{
+    text-decoration: none;
+}
+
+.base-color-text{
+    color: #151515;
+}
+
+.big-border-radius{
+    border-radius: 25px;
+}
+.base-border-radius{
+    border-radius: 10px;
+}
+
+.border-base{
+    border: 1px solid #6F679140;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.badge{
+    background-color: #EAE0FF;
+    color:#5623B4;
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 26px;
+    padding: 4.5px 15px;
+    margin-bottom: 20px;
+}
+
+.tabs{
+    margin-bottom: 40px;
+}
+
+.tab{
+    background-color: #fff;
+    color: #1C274C66;
+    border: none;
+    border-bottom: 1px solid #1C274C66;
+    padding: 14px 40px;
+}
+.tab-active{
+    color: #5623B4;
+    border-bottom: 1px solid #5623B4;
+}
+
+.number{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.marg-large{
+    margin-bottom: 50px;
+}
+
+.marg-sm{
+    margin-bottom: 10px;
+}
+
+.input-group{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.input-group-item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    border: 1px solid #6F679140;
+    font-family: "Raleway", san-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+
+.input::placeholder{
+    color: #1C274C66;
+}
+
+.gap-base{
+    gap: 10px;
+}
+
+.save__button{
+    border: none;
+    background-color: #5623B4;
+    padding: 20px 60px;
+    color: #FEFEFE;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: "Raleway", san-serif;
+}
+
+.error {
+    color: #ff4d4f;
+    margin-top: 15px;
+  }
+
+  .delete-button{
+    border: 1px solid #5623B4;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #5623B4;
+    font-family: "Raleway", san-serif;
+  }
+
+  .button-block{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .test-card__status-wrap{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
