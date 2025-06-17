@@ -1,0 +1,76 @@
+.auth-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+  
+    &__form {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    &__title {
+      font-size: 48px;
+      font-weight: 500;
+      margin-bottom: 2rem;
+    }
+  
+    &__input {
+        width: 690px;
+      padding: 0.9rem 1.2rem;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      outline: none;
+    }
+  
+    &__input-wrap {
+      position: relative;
+    }
+  
+    &__toggle {
+      position: absolute;
+      right: 1rem;
+      top: 43%;
+      transform: translateY(-50%);
+      background: transparent;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+  
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  
+    &__submit {
+      width: 100%;
+      margin-top: 1rem;
+    }
+  
+    &__separator {
+      margin: 1.2rem 0 0.4rem;
+      font-size: 13px;
+      color: #888;
+    }
+  
+    &__link {
+      color: #5623B4;
+      font-weight: 500;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  .auth-button{
+    max-width: 360px;
+    margin: 20px auto 0;
+    display: block;
+
+  }

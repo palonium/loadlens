@@ -1,0 +1,59 @@
+.task-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  
+    &__content {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      width: 480px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
+  
+    &__label {
+      display: block;
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+  
+    &__input {
+      width: 100%;
+      padding: 12px;
+      font-size: 15px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+    }
+  
+    &__actions {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+    }
+  
+    &__cancel {
+      background: none;
+      border: none;
+      color: #6a32ff;
+      font-size: 15px;
+      cursor: pointer;
+    }
+  
+    &__save {
+      background: #6a32ff;
+      color: white;
+      font-size: 15px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  }
+  

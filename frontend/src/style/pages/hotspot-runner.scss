@@ -1,0 +1,109 @@
+.hotspot-runner__canvas-wrap {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto 50px;
+    border: 1px solid #e6e6e6;
+    border-radius: 12px;
+    box-shadow: 0 0 0 2px #f0f0f0;
+    overflow: hidden;
+  }
+  
+  .hotspot-runner__canvas {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: crosshair;
+    border-radius: 12px;
+  }
+  
+  .hotspot-runner__zone {
+    position: absolute;
+    border: 1px dashed #aaa;
+    pointer-events: none;
+  
+    &--active {
+      border: 2px solid #5623B4;
+    }
+  }
+  
+  .hotspot-runner__footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .hotspot-runner__canvas-wrap {
+    position: relative;
+    display: inline-block;
+  
+    img.hotspot-runner__canvas {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  .hotspot-runner__target {
+    position: absolute;
+    z-index: 10;
+    pointer-events: none;
+    // border: 2px dashed red;
+    // background-color: rgba(255, 0, 0, 0.2);
+  }
+  
+  .hotspot-runner__info-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    max-width: 320px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+    margin-top: 24px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .hotspot-runner__info-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 8px;
+  }
+  
+  .hotspot-runner__info-group {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 4px 0;
+    color: #374151;
+  
+    &.error .hotspot-runner__info-value {
+      color: #dc2626;
+      font-weight: 600;
+    }
+  }
+  
+  .hotspot-runner__info-label {
+    font-weight: 500;
+  }
+  
+  .hotspot-runner__info-value {
+    font-weight: 600;
+  }
+  
+  .hotspot-runner__progress-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #e5e7eb;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 8px;
+  }
+  
+  .hotspot-runner__progress-fill {
+    height: 100%;
+    background-color: #3b82f6; // blue
+    transition: width 0.3s ease;
+  }
+  
